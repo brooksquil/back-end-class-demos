@@ -7,6 +7,10 @@ class DogTest < Minitest::Test
         @dog = Dog.new('')
     end
 
+    def test_if_instance_of_animal
+        assert_instance_of Dog, @dog
+    end
+    
     def test_initialize_with_no_args
         assert_equal 0, @dog.speed
     end
@@ -23,7 +27,4 @@ class DogTest < Minitest::Test
         assert_instance_of Float, @dog.speed
     end
 
-    def test_if_instance_of_animal
-        assert_instance_of Dog, @dog
-    end
 end
