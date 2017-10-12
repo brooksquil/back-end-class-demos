@@ -1,0 +1,63 @@
+RESTful Web API
+
+Resource - Something that is needed.
+
+URL - Uniform Resource Locator - Location of resource on web in a uniform format. Created by Tim Burners Lee
+
+Manipulate Resources - GET, POST, PUT, DELETE, ie CRUD
+
+REST - mmanipulates a particular resource at a URL.
+
+API - Application Programming Interface - interface for developers to consume specific resources. Secure way to allow devolopers to access your resources/data in a uniform way. prevent direct connection to your database but allows access to the data.
+
+    API Documents - give endpoints to allow for resource interface. 
+        when root doc is requested should recieve a list of resources.
+
+REST - Representation State Transfer - is an architectural style for applications defined by Roy Fielding. Also used as a marketing term as in my API is RESTful.
+     - meant for distributed hypermedia system ,intended for long lived network-based applications (i.e. world wide web)
+     
+HYPERTEXT - simultaneous presentation of information and controls thru which user obtains choices and selects actions.
+
+AFFORDANCE - something you can interact with to perform an action. A potential action made possible by object or environment, easily discoverable.
+
+Representations- structuring data for user consumption - make it readable
+
+DNS - Domain Name Server - maps to IP addresss.
+
+Code on Demand:
+Ina base system, a client can request a resource but does not have any knowledge on how to process it (javascript)
+
+Resource Representation - Data (binary) + Metadata - data about data (response           headers)
+    - when multiple representation use content negotiation based on media types
+
+6 Constraints of REST:
+1) Client/Server - separtion of concerns to allow each component to evolve independently
+2) Stateless - Each representation provides info for processing & has no reliance on            serv-based state information. This increases visibility, reliability (idempotence),          scalability.
+3) Cache - Data must be implicitly or explicitly marked as cacheable or non-cacheable -         reduces chattiness of a REST implementation. Take burden off of sytem and spread the load.
+4) Layered system - Reduce complexity by limiting knowledge of each component to only the       layer to which it needs to interact.
+5) Uniform Interface - Constraints:
+    i) way to indentify resources - any info that be be name with URL
+    ii) be able to manipulate representations 
+    iii) Multiple representations available/media types
+    iv) State Transition - As in delete or edit. 
+    v) 
+    vi)
+6) Build API so it does not require versioning
+
+API Methods/verbs: GET POST PUT DELETE OPTIONS PATCH
+
+Version using Media Types. 
+-IANA media types 
+-can define custom media types
+
+(Computer => [router) => ISP => DNS] => (Server => Server Farm missed-this) => Web Server => Application Server => Database Server
+
+***************************************************
+
+
+
+
+
+
+
+

@@ -1,0 +1,123 @@
+Marketing Skills as A Developer
+    
+Technical Resume
+    -start with a template:
+        www.hloom.com for windows only
+        www.canva.com awesome resumes, not easy
+    -Clean & Pro 
+        -consistent styling
+    -Two Versions:
+        -Demo Day Only
+            -pic so they remember us
+            -NEVER send out
+        -Post Demo Day
+            -color
+            -consistent
+    -Contents:
+        -Contact info
+            -identify as junior developer
+            -email
+            -phone
+            -github whole link
+            -linked link info
+            -portfolio site link
+        -experience
+            -title
+            -date
+            -company
+            -location
+            -description for NSS
+            -NSS listed as experience 
+            -NSS should be longest and most detailed
+            -more developer content than work history
+            *Look in career resources for ruby developer description 
+            -no first person
+            -summary of school
+            -what I've done
+            -List as Apprentice Software Developer
+            -NSS was a job like experience 
+        -Previous experience
+            -include aspects relevant to a development:
+                -group projects
+                -systems used
+                -deadlines: etc
+                -software usage
+                -accomplishments, improved things, saved money.
+            -consolidate similiar experiences, list companys, list positions, describe for all briefly
+        -Projects:
+            -two projects (capstones)
+            -side projects
+            -project name
+            -description
+            -tech used
+            -deployed link
+            -github repo
+            -direct description at tech audience.
+                -show how it was built and functions
+                -see slides for examples
+        -education:
+            -dates optional
+            -no GPA
+            -majors
+            -accomplishments
+        -Technologies (optional section)
+            -all tech used but be able to speak about it in interviews(what, how to use, what you've done with it)
+        -Pics
+            -tues nov. 7
+            -serious - resume
+            -goofy - git hub or fun
+        Submitting:
+            -distribute as a PDF
+            -all links are clickable
+            -spelling, gråmmar
+            -get feedback
+        About section:
+            -Personality - needs to be unique. Why development. First Person
+         
+        DON'T:
+        -do graphs
+        -over design unless aiming at it
+        -avoid education related verbage (talk about NSS like job)
+
+LinkedIn -extended resume
+        -give background image and use profesional pic from NSS
+        -Headline says software developer
+    -Summary
+        -tell development story
+        -communicate passion
+        -profesional
+        -min 2-3 lines, but more if can be done well
+        -link portfolio
+        -link github
+    -Experience
+        -NSS
+        -More detailed than resume for previous work experience
+        -Ten years only
+    -Projects
+        -capstones
+        -side projects
+    -Education
+        -list NSS
+        -College
+        -study abroad
+    -Organizations
+    -Certifications-All
+
+Personal Site/Portfolio
+    -contact info
+    -about- more personal
+    -Technologies
+    -projects
+Reflect personality -
+should look pro 
+informative and robust
+
+Notes:
+-study up on every listed tech learned here
+1/1's - Complete the checklist
+
+
+Bio-
+work experience, why you love coding. 
+
+Front End or Back End
