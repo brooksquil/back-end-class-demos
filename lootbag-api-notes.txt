@@ -1,0 +1,84 @@
+
+
+Rails apis:
+
+to start api: {rails new filename --api}
+
+open server: {rails server} 
+
+(The directories we will focus on to start and working on api's)
+/app/controllers
+/app/models
+
+(Installs file to models folder and adds migration to DB folder:)
+{rails g model Toy name:string}
+-creates toys with field name
+ -also includes time stamps by default for creation and update
+ -also includes unique priary ID by default
+
+(Migrates = change to database:)
+{rails db:migrate}
+-running migration
+-creates table on sql
+
+(Open sqlite3 file in db folder of api in db-browser)
+
+(Adds another table with following key value pairs listed in command)
+{rails g model Child name:string delivered:boolean}
+
+Migrate again:
+{rails db:migrate}
+
+(Rollback migration:
+)
+{rails db:rollback}
+-undo last addition to database
+
+(Create Joined table in DB:
+)
+{rails generate  migration CreatJoinTableForToyAndChild}
+    Add to migration file for above command:
+        {create_join_table :children, :toys}
+{    rails db:migrate
+}    -add table to db browser
+     -brings in foreign keys for both joined tables 
+
+If an edit to a table label is needed or other changes
+1){rails db:rollback} to desired point
+2)change migration file for that table
+3){rails db:migrate}
+
+Add relationships to models:
+class Toy < ApplicationRecord
+
+    has_many :children
+end
+
+-has_many is a keyword defining the relationship between the data.
+
+
+(Give each edited model a controller
+)
+{rails g controller Toys}
+{rails g controller Children}
+
+(add to routes- resources)
+resources :children
+{rails routes } 
+    -lists all routes
+
+{rails db}
+-brings you to database in terminal
+
+to update db in browser: in concerns in controllers:
+module Response
+    def json_response(object, status = ok)
+        render json: object, status: status
+    end 
+end
+
+ In /app/application_controller:
+ include Response
+
+ Add in  child controller:
+ json_response(@children)
