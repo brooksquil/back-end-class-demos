@@ -80,5 +80,12 @@ end
  In /app/application_controller:
  include Response
 
- Add in  child controller:
+ Add in child controller to get json in browser:
  json_response(@children)
+
+Add in child controller to be able to choose by id in URL
+Child.find(params[:id])
+
+# params.permit - allows access to specific attributes, otherwise the attributes are set.
+
+# destroy deletes entire record
