@@ -36,7 +36,9 @@ Migrate again:
 
 (Create Joined table in DB:
 )
-{rails generate  migration CreatJoinTableForToyAndChild}
+{rails generate  migration 
+
+{CreatJoinTableForToyAndChild}
     Add to migration file for above command:
         {create_join_table :children, :toys}
 {    rails db:migrate

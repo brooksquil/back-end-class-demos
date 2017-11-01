@@ -1,0 +1,18 @@
+1) Write 
+
+2) Run Test -> Test Fails 
+
+3) Write Code to make test pass
+
+4) Run Test -> Test Passes
+
+5) Refactor Code
+
+6) Run Test -> Test should still past
+
+Instructions for continuing work on in-class demo:
+1) Add tests for checking type of parameters passed into initialize. "currency_one" and "currency_two" should be strings. And "conversion_rate" should a number.
+
+2. Add tests for checking type of paramter "amount" for both conversion methods. It should be a number.
+
+3. The if-else in the convert_currency_two_to_one method needs to be tested. The if else gives you two different sceanrios that can happen and they both need to be tested.
