@@ -1,0 +1,7 @@
+rails new <title>
+rails g controller <title> (list as many as you wand in welcome directory)
+
+root 'welcome#index' in routes.rb
+
+g model Comment commenter:string body:text article:references
+rails db:migrate
