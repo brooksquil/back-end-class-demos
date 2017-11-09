@@ -14,11 +14,12 @@ class CurrencyConverterTest < Minitest::Test
         assert_instance_of Float, @apples_to_oranges.conversion_rate
     end
 
-    def test_initialize
+        def test_initialize
         
         # tests that class exists:
         assert_raises ArgumentError do
             CurrencyConverter.new
+        
         end
 
         # test for one argument
