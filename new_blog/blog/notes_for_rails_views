@@ -5,3 +5,16 @@ root 'welcome#index' in routes.rb
 
 g model Comment commenter:string body:text article:references
 rails db:migrate
+
+rails g resource user email password_digest
+
+
+secure login gems:
+devise
+authlogic
+
+ # encrypts password
+    has_secure_password
+
+# checks that email does not exsist in db
+    validates_uniqueness_of :email
