@@ -2,3 +2,12 @@
 <p>Find me in app/views/welcome/index.html.erb</p>
 
 <%= link_to 'My Blog', controller: 'articles' %>
+
+    <div id="user_header">
+        <% if logged_in? %>
+            <%= link_to 'Logout', logout_path %>
+                <% else %>
+                    <%= link_to "Sign Up", signup_path%>
+                        <%= link_to "Log In", login_path %>
+                            <% end %>
+    </div>
